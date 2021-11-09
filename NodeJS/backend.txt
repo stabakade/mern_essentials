@@ -1,0 +1,26 @@
+// put and patch difference
+PUT is a method of modifying resource where the client sends data that updates the entire resource . PATCH is a method of modifying resources where the client sends partial data that is to be updated without modifying the entire data.
+
+// localStorage and sessionStorage
+These web storage objects are not sent to server with each request, unlike cookies.
+the data survives a page refresh (for sessionStorage) and even a full browser restart (for localStorage).
+
+Some methods of both these objects
+setItem(key, value) – store key/value pair.
+getItem(key) – get the value by key.
+removeItem(key) – remove the key with its value.
+clear() – delete everything.
+key(index) – get the key on a given position.
+length – the number of stored items.
+
+In localStorage, he data does not expire. It remains after the browser restart and even OS reboot
+SessionStorage is used much less often. Another tab with the same page will have a different storage.
+
+// NO SQl
+Data is not stored like relational, but stored like key-value, wide-column or graph etc
+Flexibility hai and scaling easy hai
+ex mongodb
+
+// can we partition an existing table?
+Yes, by using alter table ... add partition
+
